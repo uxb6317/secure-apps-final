@@ -1,0 +1,37 @@
+.active-users {
+  width: 15%;
+  overflow-y: auto;
+  margin-right: 1%;
+}
+
+.active-users ul {
+  overflow-y: auto;
+}
+
+.active-users li {
+  list-style: none;
+  margin: 0.3rem 0;
+  margin-left: 0.2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.active-users p {
+  color: #d34140;
+  padding-right: 0.5rem;
+}
+
+.active-users button {
+  text-decoration: none;
+  padding: 0.15rem;
+  border-radius: 3px;
+  color: white;
+}
+
+.cancel-challenge {
+  background: #d34140;
+}
+
+.send-challenge {
+  background: green;
+}

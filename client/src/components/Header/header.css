@@ -1,0 +1,111 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2d2d3b;
+  border-bottom: 1px solid #f8f9f9;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.challenge-modal {
+  position: fixed;
+  top: 4rem;
+  right: 3rem;
+  padding: 1rem;
+  background: #f8f9f9;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border-radius: 3px;
+}
+
+.challenge-modal p {
+  margin-bottom: 0.3rem;
+}
+
+.challenge-modal .challenger-name {
+  color: #d34140;
+  border-bottom: 1px solid #d34140;
+  margin: 0 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.challenge-modal button {
+  padding: 0.3rem;
+  border: none;
+  border-radius: 3px;
+  color: #f8f9f9;
+  border-bottom: 1px solid #2d2d3b;
+}
+
+.challenge-modal .accept {
+  background: #1abc9c;
+  margin-right: 0.5rem;
+}
+
+.challenge-modal .decline {
+  background: #d34140;
+}
+
+.right-menu {
+  display: flex;
+  align-items: baseline;
+  font-size: 1.1rem;
+  color: #d34140;
+}
+
+.nav-item {
+  color: #f8f9f9;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  transition: all 0.25s;
+}
+
+button.nav-item {
+  background-color: #2d2d3b;
+}
+
+.nav-item:hover {
+  color: #f3c217;
+}
+
+.logo {
+  color: #f8f9f9;
+  font-size: 1.3rem;
+}
+
+.active {
+  color: #f3c217;
+}
+
+.username-btn {
+  color: #d34140;
+}
+
+.username-btn:hover {
+  color: #d34140 !important;
+}
+
+span.challenge {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  background: #f8f9f9;
+  padding: 0.3rem;
+  border-radius: 3px;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+span.challenge:hover {
+  background: #d34140;
+  color: #f8f9f9;
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* light shades: #F8F9F9
+   light accent: #89B2BA
+   main color: #F3C217
+   dark accent: #D34140
+   dark shade: #2D2D3B */
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f8f9f9;
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  margin: 0 2%;
+  /* justify-content: center; */
+}
+
+.sub-container {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.title {
+  background: #2d2d3b;
+  color: #f8f9f9 !important;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}

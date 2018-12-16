@@ -1,0 +1,62 @@
+.global-chat {
+  width: 85%;
+}
+
+.game-chat {
+  width: 25%;
+}
+
+.chat {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-window {
+  background: #f8f9f9;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.chat-form {
+  background: #2d2d3b;
+  padding: 0.25rem;
+  display: flex;
+}
+
+.chat-form textarea {
+  width: 100%;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.chat-form button {
+  padding: 0 1rem;
+  background: #f8f9f9;
+  font-size: 1.1rem;
+}
+
+.chat-message {
+  display: flex;
+  align-items: baseline;
+}
+
+.chat-message > * {
+  margin: 0.15rem;
+}
+
+.content {
+  word-break: break-word;
+}
+
+.time {
+  color: rgb(150, 150, 150);
+  font-size: 0.7rem;
+  min-width: 4rem;
+}
+
+.sender {
+  color: #d34140;
+  cursor: pointer;
+}
